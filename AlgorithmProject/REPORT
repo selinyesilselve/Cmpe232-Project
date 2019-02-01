@@ -1,0 +1,15 @@
+ALGORITHM PROJECT
+
+REPORT
+
+ This project is about Community Detection based on Dijkstra Shortest Path Algorithm. We use data as movie characters relationships in the movie "BABEL". We implement our code in java.
+ First of all, we created our edge weighted graph, we add source vertex, target vertex and their edge weight later on  we find the shortest path between every pair in our edge weighted graph. Then, for every edge, we count the number of shortest paths passing through that edge with using hash table to show. We try to find count using index numbers by means we try to reach each key-value pairs place.
+ Finally, we find and remove the edge on which the max number of shortest paths pass. Each time our edge weighted graph's edge smaller one by one. Then continue with the new edge weighted graph.And we do this same process 10 times. 
+
+ 
+
+EKIN SILAHLIOGLU 116200078
+KADIR AKGUL 115200081
+SIMGE EREK 115200023
+SELIN YESILSELVE 115200041
+EZGI KOÇ 115200087
